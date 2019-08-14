@@ -65,7 +65,7 @@ public class ProductDaoImpl extends ConnectionUtils implements ProductDao{
 
 	@Override
 	public void editProduct(Product product) {
-		String sql = "update product set Dog_Name = '"+product.getDogName()+"', Gender ='"+product.getGender()+"', Age = '"+product.getAge()+"', Health = '"+product.getHealth()+"', Price= "+product.getPrice()+", Status = '"+product.getStatus()+"', Avatar='"+product.getAvatar()+"' Where id ="+product.getId()+";";
+		String sql = "update product SET Dog_Name = '"+product.getDogName()+"', Gender ='"+product.getGender()+"', Age = '"+product.getAge()+"', Health = '"+product.getHealth()+"', Price= "+product.getPrice()+", Status = '"+product.getStatus()+"', Avatar='"+product.getAvatar()+"' Where Id ="+product.getId()+"";
 		Connection cnn = null;
 		PreparedStatement pr = null;
 		try {
@@ -101,7 +101,7 @@ public class ProductDaoImpl extends ConnectionUtils implements ProductDao{
 	@Override
 	public Product findProductById(int id) {
 		List<Product> listProduct = new ArrayList<Product>();
-		String sql = " select *form product where Id = "+id+";";
+		String sql = " select *from product where Id = "+id+"";
 		Connection cnn = null;
 		PreparedStatement pr = null;
 		try {

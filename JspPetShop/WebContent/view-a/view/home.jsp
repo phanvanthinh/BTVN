@@ -16,7 +16,7 @@
    <body>
      
     <jsp:include page="header.jsp" />
-			 <h1>Sản phẩm</h1>
+			 
 	     
 	   
      <div class="container">
@@ -54,7 +54,7 @@
               </div>
               <div class="card-footer">
                  <h4 class="card-title"  style="text-align: center">
-                  <a href="#">Item One</a>
+                 <a href="order?id=${product.id}">Buy</a>
                 </h4>
               </div>
             </div>

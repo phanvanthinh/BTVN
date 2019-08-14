@@ -7,12 +7,12 @@ public class Orderr {
     private int age;
     private int phoneNumber;
     private String address;
-    private float total;
+//    private float total;
     private String status;
 	public Orderr() {
 		super();
 	}
-	public Orderr(int id, String customerName, String gender, int age, int phoneNumber, String address, float total,
+	public Orderr(int id, String customerName, String gender, int age, int phoneNumber, String address,
 			String status) {
 		super();
 		this.id = id;
@@ -21,7 +21,7 @@ public class Orderr {
 		this.age = age;
 		this.phoneNumber = phoneNumber;
 		this.address = address;
-		this.total = total;
+//		this.total = total;
 		this.status = status;
 	}
 	public int getId() {
@@ -60,12 +60,12 @@ public class Orderr {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public float getTotal() {
-		return total;
-	}
-	public void setTotal(float total) {
-		this.total = total;
-	}
+//	public float getTotal() {
+//		return total;
+//	}
+//	public void setTotal(float total) {
+//		this.total = total;
+//	}
 	public String getStatus() {
 		return status;
 	}

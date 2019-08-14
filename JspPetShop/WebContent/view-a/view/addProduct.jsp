@@ -16,20 +16,20 @@
        <br>
        <form action ="/JspPetShop/addProduct" method = "post" >
            <label>Dog Name:</label>
-           <input type = "text" name="dogName" >
-           <label>Gender :</label>
-           <input type = "text" name="gender" >
-           <label>Age :</label>
-           <input type = "text" name="age" >
-           <label>Health :</label>
-           <input type = "text" name="health" >
-           <label>Price :</label>
-           <input type = "text" name="price" >
-           <label>Status :</label>
-           <input type = "text" name="status" >
-           <label>Avatar :</label>
-           <input type = "text" name="avatar" > 
-           <input type = "submit" value = "ADD">
+           <input type="text" name="dogName" /> <br>
+           <label>Gender &nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" name="gender" />  <br>
+           <label>Age :&nb&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" name="age" />      <br>
+           <label>Health :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" name="health" />   <br>
+           <label>Price :&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+           <input type="text" name="price" />    <br>
+           <label>Status :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" name="status" />    <br>
+           <label>Avatar :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type ="text" name="avatar" />    <br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="submit" value ="ADD"/>
        </form>
        
        

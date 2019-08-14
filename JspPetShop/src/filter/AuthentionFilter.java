@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class AuthentionFilter
  */
-@WebFilter({"/homeAdmin"})
+@WebFilter({"/homeAdmin", "/listOrder", "/addProduct", "/deleteProduct", "/editProduct"})
 public class AuthentionFilter  implements Filter {
 
        
